@@ -9,6 +9,9 @@ function App() {
         정상영업중....
       </h1>
     </div>
+    <div>
+      dfsdf
+    </div>
     </>
   )
 }
