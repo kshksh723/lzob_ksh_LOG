@@ -1,7 +1,12 @@
 import './App.css'
 
 function App() {
-
+  function hadleOnclick() {
+    alert("안녕하세요! 김승혜입니다 :)")
+  }
+  function hadleOnclick1  (){
+    alert("dffd");
+  }
   return (
     <>
     <div className="bg-[#008080] min-h-screen p-10 font-mono">
@@ -22,7 +27,7 @@ function App() {
       <p className="text-black mb-4">Hello World!</p>
       
       {/* 윈도우 버튼 스타일 */}
-      <button className="bg-[#c0c0c0] px-4 py-1 border-t-2 border-l-2 border-white border-r-2 border-b-2 border-gray-800 active:border-t-gray-800 active:border-l-gray-800 active:border-r-white active:border-b-white">
+      <button name='A' onClick={hadleOnclick} className="bg-[#c0c0c0] px-4 py-1 border-t-2 border-l-2 border-white border-r-2 border-b-2 border-gray-800 active:border-t-gray-800 active:border-l-gray-800 active:border-r-white active:border-b-white">
         OK
       </button>
     </div>
@@ -44,7 +49,7 @@ function App() {
 
   {/* 내부 흰색 영역 (실제 내용) */}
   <div className="bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-7">
-    <h2 className="text-black text-xl font-bold mb-4">Welcome to My OS</h2>
+    <h2 className="text-black text-xl font-bold mb-4">Welcome to My DEV STACK</h2>
     <p className="text-gray-700 text-sm mb-6 leading-relaxed">
       현재 시스템이 정상적으로 작동 중입니다. <br />
       기술 스택을 확인하려면 '확인' 버튼을 누르세요.
@@ -52,7 +57,7 @@ function App() {
 
     {/* 버튼 정렬 */}
     <div className="flex justify-end gap-4">
-      <button className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 active:border-t-black active:border-l-black active:border-r-white active:border-b-white text-sm shadow-md">
+      <button onClick={hadleOnclick1}  className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 active:border-t-black active:border-l-black active:border-r-white active:border-b-white text-sm shadow-md">
         확인
       </button>
       <button className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 text-sm shadow-md">
