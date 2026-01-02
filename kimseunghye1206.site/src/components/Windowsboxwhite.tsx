@@ -1,5 +1,6 @@
 /* Devleoper's Portfolio 창 */
 import profileImg from '../img/profilePhoto.jpg';
+import projectLink from "../img/link.png";
 function Windowsboxwhite () {
 
   function handleOnclick1() {
@@ -7,13 +8,13 @@ function Windowsboxwhite () {
   }
   
 
-    return (
-    <div className="w-full max-w-[1000px] h-[90dvh] md:h-[85vh] flex flex-col bg-[#c0c0c0] shadow-[2px_2px_0px_rgba(0,0,0,1),inset_2px_2px_0px_rgba(255,255,255,1)] p-1 border-r-2 border-b-2 border-gray-800">
-        <div className="flex-none bg-[#000080] text-white flex justify-between items-center px-2 py-1 mb-1">
-            <div className="flex items-center gap-2">   
-                <span className="text-xs">💻</span>
-                <span className="text-sm font-bold tracking-tight">Developer's Portfolio</span>
-            </div>
+return (
+<div className="w-full max-w-[1000px] h-[90dvh] md:h-[85vh] flex flex-col bg-[#c0c0c0] shadow-[2px_2px_0px_rgba(0,0,0,1),inset_2px_2px_0px_rgba(255,255,255,1)] p-1 border-r-2 border-b-2 border-gray-800">
+  <div className="flex-none bg-[#000080] text-white flex justify-between items-center px-2 py-1 mb-1">
+    <div className="flex items-center gap-2">   
+        <span className="text-xs">💻</span>
+        <span className="text-sm font-bold tracking-tight">Developer's Portfolio</span>
+    </div>
             <div className="flex gap-1">
                 <button className="bg-[#c0c0c0] text-black px-1 border border-white border-r-black border-b-black text-xs">_</button>
                 <button className="bg-[#c0c0c0] text-black px-1 border border-white border-r-black border-b-black text-xs">x</button>
@@ -34,6 +35,7 @@ function Windowsboxwhite () {
   <h2 className="text-lg font-bold mb-3">👋 안녕하세요!</h2>
   <p className="leading-relaxed mb-4">
     기획부터 구현까지, 프로젝트의 <span className="bg-yellow-200 px-1">A to Z를 경험하며 성장</span>해온 개발자입니다.
+    <br/>배움을 나누며 함께 성장하는 것을 좋아합니다.
   </p>
   <ul className="list-disc ml-5 space-y-2 text-sm">
     <li><strong>React-Native:</strong> 교환일기 앱 기획/개발 (교내 공모전 <strong>우수상</strong> && 지역 공모전 <strong>인기상</strong>)</li>
@@ -41,13 +43,16 @@ function Windowsboxwhite () {
   </ul>
 </div>
     <h1 className="text-xl font-bold mb-4 pb-1 mt-6  border-b border-gray-200">Contact.</h1>
-    <p className="p-2 flex text-gray-700 text-sm mb-6 leading-relaxed">
-        Email :  
-        <a href="mailto:kimsh33971190@gmail.com" className="ml-3 underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors">
-      kimsh33971190@gmail.com
-        </a>
-    </p>
+   <div className="p-1 flex flex-col md:flex-row text-gray-700 text-sm mb-6 leading-relaxed">
+    <span className="font-bold w-20 shrink-0">Email :</span>
     
+    <a 
+      href="mailto:kimsh33971190@gmail.com" 
+      className="md:ml-2 underline decoration-1 underline-offset-4 hover:text-blue-600 transition-colors break-all"
+    >
+      kimsh33971190@gmail.com
+    </a>
+</div>
  <div className="mt-8">
   <h3 className="text-xl font-bold mb-4 pb-1 border-b border-gray-200">
     Education.
@@ -94,7 +99,7 @@ function Windowsboxwhite () {
   <div className="mb-8 px-1 md:px-2">
     <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
               <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
-        <span className="text-md md:text-lg text-lg font-bold">비브이에스</span>
+        <span className="font-bold text-gray-900 text-base md:text-lg">비브이에스</span>
         <span className="text-sm text-gray-600 font-medium">홈페이지 콘텐츠 운영 및 유지보수</span>
       </div>
       <span className="text-sm text-gray-500 tabular-nums">2025.07. ~ 2025.09.  (3개월)</span>
@@ -122,11 +127,11 @@ function Windowsboxwhite () {
   {/* 디와이정보기술 */}
   <div className="mb-8 px-1 md:px-2">
     <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
-              <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
-        <span className="text-lg font-bold">디와이정보기술</span>
+      <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+        <span className="font-bold text-gray-900 text-base md:text-lg">디와이정보기술</span>
         <span className="text-sm text-gray-600 font-medium">SI 공공사업팀</span>
       </div>
-      <span className="text-sm text-gray-500 tabular-nums">2024.10. ~ 2025.06. (8개월)</span>
+          <span className="text-sm text-gray-500 tabular-nums">2024.10. ~ 2025.06. (8개월)</span>
     </div>
 
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
@@ -199,7 +204,78 @@ function Windowsboxwhite () {
     </div>
   </div>
 </div>
+  <div className="mt-8 mb-6 leading-relaxed text-black ">
+  <p className="text-xl font-bold  pb-1  border-b border-gray-200"> Experiences. </p>
+<div className="mb-8 mt-3 px-1 md:px-2">
+  <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+  <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <a 
+      href="https://github.com/kshksh723/University-Student-Mentoring-Page.git"
+      target='_blank'
+      className="group relative flex items-center w-fit cursor-pointer"
+    >
+      <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+        대학생 멘토링 페이지
+      </span>
 
+      <img 
+        src={projectLink} 
+        alt="link" 
+        className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+      />
+    </a>
+
+    <span className="text-sm text-gray-600 font-medium">개인 프로젝트</span>
+  </div>
+  <span className="text-sm text-gray-500 tabular-nums">2026.10. ~ 진행중</span>
+</div>
+    
+    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+      <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack: React, TypeScript, TAILWIND CSS, Spring Boot, JPA, SPRING AI, MariaDB
+      </p>
+      <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
+        <li>2022년 멋쟁이사자처럼 아이디어톤에서 기획했던 페이지 리팩토링 <small><a href='https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&p=f&t=IIMMv3Jht1nzq09o-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank' className='underline'>(리팩토링 전 기획)</a></small> </li>
+        <li>
+          AI 매칭을 활용한 멘토 추천, 멘토가 멘티에게 정보를 공유하고 개인별 학습 역량을 성장 시킬 수 있도록 관리 해주는 페이지
+        </li>
+      </ul>
+    </ul>
+  
+  <div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+  <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <a 
+      href="https://github.com/kshksh723/Medinfora.git"
+      target='_blank'
+      className="group relative flex items-center w-fit cursor-pointer"
+    >
+      <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+        의료 정보 사이트
+      </span>
+
+      <img 
+        src={projectLink} 
+        alt="link" 
+        className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+      />
+    </a>
+
+    <span className="text-sm text-gray-600 font-medium">팀 프로젝트(5명)</span>
+  </div>
+  <span className="text-sm text-gray-500 tabular-nums">2024.06.25. ~ 2024.08.08.</span>
+</div>
+    
+    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+      <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack:  ORACLE, APACHE TOMCAT, JAVA, HTML, CSS, JAVASCRIPT, JQEURY, GITHUB, EXERD, Spring Boot, AWS(EC2), 공공데이터 API
+      </p>
+      <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
+        <li> <strong>역할</strong> : 회원과 관리자의 관점에서 공지사항, 공공데이터 API를 활용한 의료통계 시각화, 회원관리 </li>
+        <li>의료 관련 정보를 제공해주는 페이지</li>
+      </ul>
+    </ul>
+  </div>  
+</div>
 
             <div className="flex justify-end gap-4">
               {/* 클릭 시 상태 업데이트 */}
