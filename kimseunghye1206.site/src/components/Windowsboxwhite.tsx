@@ -1,6 +1,7 @@
 /* Devleoper's Portfolio 창 */
 import profileImg from '../img/profilePhoto.jpg';
 import projectLink from "../img/link.png";
+import smallObject from "../img/smallObjectProject.png";
 function Windowsboxwhite () {
 
   function handleOnclick1() {
@@ -632,21 +633,26 @@ return (
        <span className="text-sm text-gray-600 font-medium">팀 프로젝트</span>
     </div>
     <span className="text-xs md:text-sm text-gray-500 tabular-nums whitespace-nowrap self-start md:self-auto">
-      : 2021.05. ~ 2022.01.
+       2021.05. ~ 2022.01.
     </span>
   </div>
 <ul className="ml-8 list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
     <li>
-      <strong>서비스 기획 및 설계 :</strong> 
+      <strong>한경 앱 아이디어 챌린지 참여 :</strong> 
       <ul className="ml-5 list-[circle] space-y-1.5 mt-1 text-gray-700">
         <li>Kakao Oven을 활용한 사용자 인터페이스 설계 및 인터렉티브 프로토타이핑 수행</li>
+        <li><a href='https://drive.google.com/file/d/17qc36OBbswVrRsRAok_p54TCw11DKseN/view?usp=sharing' target='_blank' className='underline'>소상공인 재고 서비스(식자재 거래 애플리케이션) 제안서</a></li>
       </ul>
     </li>
     <li>
-      <strong>기술 공모전 참여 :</strong> 
+      <strong>기술 공모전 참여 : </strong> 
       <ul className="ml-5 list-[circle] space-y-1.5 mt-1 text-gray-700">
         <li>Python 기반 소형 객체 인지 AI 공모전 참여 및 데이터 그리드 레이블링 시각화</li>
         <li>이미지 내 노이즈(낙서) 제거를 통한 텍스트 인지 모델 연구로 데이터 처리 프로세스 이해</li>
+        <li>여러 DNN 모델을 파이썬을 이용하여 구현해 본 경험과 CNN 모델 중 숫자를 인식하는 모델을 만들어 구현</li>
+      <img 
+        src={smallObject} className="object-cover select-none" alt="소형객체" draggable="false" 
+        onContextMenu={(e) => e.preventDefault()} />
       </ul>
     </li>
   </ul>
@@ -655,7 +661,6 @@ return (
 
   
         <div className="flex justify-end gap-4">
-          {/* 클릭 시 상태 업데이트 */}
           <button onClick={handleOnclick1} className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 active:border-t-black active:border-l-black active:border-r-white active:border-b-white text-sm">
             확인
           </button>
