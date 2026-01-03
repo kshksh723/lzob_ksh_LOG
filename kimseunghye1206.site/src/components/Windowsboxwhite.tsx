@@ -210,7 +210,7 @@ return (
   <div className="mt-8 mb-6 leading-relaxed text-black ">
   <p className="text-xl font-bold  pb-1  border-b border-gray-200"> Experiences. </p>
  <p className="text-[11px] text-gray-400 italic mb-2">
-    * 아래 프로젝트명을 클릭하면 관련 링크(GitHub, 기사 등)로 연결됩니다.
+    * 아래 프로젝트명을 클릭하면 관련 링크(GitHub, 기사, 문서 등)로 연결됩니다.
   </p>
 <div className="mb-8 mt-3 px-1 md:px-2">
   <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
@@ -233,7 +233,7 @@ return (
 
     <span className="text-sm text-gray-600 font-medium">개인 프로젝트</span>
   </div>
-  <span className="text-sm text-gray-500 tabular-nums">2026.10. ~ 진행중</span>
+  <span className="text-sm text-gray-500 tabular-nums">2026.01. ~ 진행중</span>
 </div>
     
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
@@ -419,7 +419,7 @@ return (
         </a>
       </li>
        <li>
-<div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-1 md:gap-4">
+<div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1 gap-1 md:gap-4">
          <a 
         href="https://drive.google.com/file/d/1lbTYsUiU9t8Nt7GGc0qoo2AJzX9DIbva/view?usp=sharing"
         target='_blank'
@@ -449,15 +449,15 @@ return (
         </ul>
       </li>
     </ul>
-   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4 gap-1 md:gap-4">
+   <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-1 gap-1 md:gap-4">
              <a 
         href="https://drive.google.com/file/d/1F_0H1vUhtcqDUHkyipHETiozWT7E58JD/view?usp=sharing"
         target='_blank'
         className="group relative flex items-center w-fit cursor-pointer"
     >
-    <span className="font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
-     🏆 (지역 공모전) 광주전남혁신플랫폼 지역 혁신본부 동아리 성과 보고 전시 발표회
-    </span>
+      <span className="font-bold text-gray-900 text-sm md:text-base group-hover:underline decoration-1 underline-offset-4">
+      🏆 (지역 공모전) 광주전남혁신플랫폼 지역 혁신본부 동아리 성과 보고 전시 발표회
+      </span>
     <img 
       src={projectLink} 
       alt="link" 
@@ -465,8 +465,8 @@ return (
     />
     </a>
     <div className="flex flex-col items-start md:items-end shrink-0">
-       <span className="text-xs text-gray-500 tabular-nums">2021.10. ~ 2022.04.</span>
-       </div>
+        <span className="text-xs text-gray-500 tabular-nums "> 2021.10. ~ 2022.04.</span>
+        </div>
       </div>
         <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
           <li><strong>역할 및 구현 :</strong>
@@ -483,18 +483,199 @@ return (
   </li>
 </ul>
 
-            <div className="flex justify-end gap-4">
-              {/* 클릭 시 상태 업데이트 */}
-              <button onClick={handleOnclick1} className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 active:border-t-black active:border-l-black active:border-r-white active:border-b-white text-sm">
-                확인
-              </button>
-              <button className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 text-sm">
-                취소
-              </button>
-            </div>
+<div className="mt-6 flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+  <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <a 
+        href="https://drive.google.com/file/d/1wr9f0GLMj_O79CN59osjOEY4aV3o9rcx/view?usp=sharing"
+        target='_blank'
+        className="group relative flex items-center w-fit cursor-pointer"
+    >
+    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+      4대 항만공사 창업 아이디어 발굴 해커톤
+    </span>
+    <img 
+      src={projectLink} 
+      alt="link" 
+      className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+    />
+    </a>
+
+    <span className="text-sm text-gray-600 font-medium">팀 프로젝트(4명)</span>
+  </div>
+  <span className="text-sm text-gray-500 tabular-nums">2021.08. ~ 2021.09.</span>
+</div>
+    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+      <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack: Arduino, php, mysql
+      </p>
+        <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+            <li>
+              <strong>역할 :</strong> 발주처와 연락 및 PPT 제작, 자료 조사
+            </li>
+            <li>
+              자율주행 보트에 각종 센서를 부착하여 항만 내 수질측정 및 각종 쓰레기 자율 수집하는 해상 수질 자율 측정 시스템
+            </li>
+            <li>
+              <strong>기술 제안서 :</strong> <a href='https://drive.google.com/file/d/1BUZxA8aDs9adfFtU5gb2Y1YrZF8FF7pB/view?usp=sharing' target='_blank' className='underline'>4대 항만공사</a>
+            </li>
+            <li>
+              항만의 환경 오염 수집 및 G.BOAT라는 창업 아이템을 선보여 비록 수상은 못했지만 본선 심사 8팀 중 5등을 하게 되어 본선 진출함
+            </li>
+        </ul>
+    </ul>
+ <div className="mt-8 mb-6 leading-relaxed text-black ">
+  <p className="text-xl font-bold  pb-1  border-b border-gray-200"> Activity. </p>
+  <p className="text-[11px] text-gray-400 italic mb-2">
+    * 아래 활동명을 클릭하면 관련 링크(GitHub, 기사, 문서 등)로 연결됩니다.
+  </p>
+  <div className="mb-8 mt-3 px-1 md:px-2">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+      <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+            <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+              순천시 대학졸업생 행정인턴
+            </span>
+          <span className="text-sm text-gray-600 font-medium">기적의도서관 사서</span>
+      </div>
+        <span className="text-sm text-gray-500 tabular-nums">2023.07. ~ 2023.12.</span>
+    </div>
+      <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+        <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+          <li><strong>도서관 운영 지원, 프로그램 및 행사 운영 보조, 자원봉사자 관리 및 교육, 도서 관리 및 환경 개선</strong>
+            <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+              <li><strong>운영 관리 :</strong> 도서관 회원 관리 시스템 보조, 도서 대출 및 반납 업무 수행, 상호 대차 시스템을 통한 순천시 내 공공 도서관의 도서 분류 및 상호 대차 배송 관리</li>
+              <li><strong>프로그램 및 행사 운영 보조 :</strong> 어린이집 도서관 견학 프로그램 지원 업무, 도서관 행사 진행 시 담당 교사 보조 역할 수행, 원할한 행사 진행을 위한 지원 업무 담당</li>
+              <li><strong>자원봉사자 관리 및 교육:</strong> 도서관 봉사 활동에 대한 상세 안내 제공 및 효율적인 도서 정리 방법 교육 실시</li>
+              <li><strong>도서 관리 및 환경 개선:</strong> 도서 청구기호에 따라 도서 정리 및 서가 환경 조성</li>
+            </ul>
+          </li>
+        </ul>
+      </ul>
+  </div>
+</div>
+ <div className="mb-8 mt-3 px-1 md:px-2">
+      <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
+      <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
+    <a 
+        href="https://github.com/kshksh723/codelion.git"
+        target='_blank'
+        className="group relative flex items-center w-fit cursor-pointer"
+    >
+    <span className="font-bold text-gray-900 text-base md:text-lg group-hover:underline decoration-1 underline-offset-4">
+      멋쟁이사자처럼 대학 10기
+    </span>
+    <img 
+      src={projectLink} 
+      alt="link" 
+      className="ml-2 w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-200 transform group-hover:translate-x-1"
+    />
+    </a>
+          <span className="text-sm text-gray-600 font-medium">프론트엔드 운영진</span>
+      </div>
+        <span className="text-sm text-gray-500 tabular-nums"> 2022.01. ~ 2022.12.</span>
+    </div>
+      <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+        <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+            <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+              <li>멋쟁이사자처럼을 참여하고 HTML, CSS, JAVASRIPT 그리고 REACT를 제대로 공부할 수 있었던 순간이었습니다.</li>
+              <li>활동에는 강의, FIGMA를 사용하여 팀원들과 함께 기획&디자인을 하는 메이커톤, 팀원들과 같이 이틀 간 진행하는 해커톤을 참여했습니다.</li>
+              <li><strong>메이커톤 :</strong> <a href='https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&p=f&t=IIMMv3Jht1nzq09o-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank' className='underline'>대학생 멘토링 페이지 기획</a></li>
+              <li><strong>해커톤 :</strong> <a href='https://drive.google.com/file/d/1FQepf-M2bTvFk_peU4eLv1ts1Jgj7YrX/view' target='_blank' className='underline'>해커톤 PPT</a></li>
+            </ul>
+        </ul>
+      </ul>
+  </div>
+
+<div className="mb-10 px-1 md:px-2">
+  <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4 gap-1">
+    <div className="flex flex-wrap items-center gap-2">
+      <span className="font-bold text-gray-900 text-base md:text-lg break-keep">
+        학습 동아리 '컴공진단' & '판교가자'
+      </span>
+       <span className="text-sm text-gray-600 font-medium">팀 프로젝트</span>
+    </div>
+    <span className="text-xs md:text-sm text-gray-500 tabular-nums whitespace-nowrap self-start md:self-auto">
+      2021.06. — 2022.02.
+    </span>
+  </div>
+
+  <ul className="ml-8 list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
+    <li>
+      <strong>교내 서점 홈페이지 '사고파' 제작 (팀명 : 판교가자)</strong>
+       <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack:  React, Firebase, Spring Framework
+      </p>
+      <ul className="ml-5 list-[circle] space-y-1.5 mt-1 text-gray-700">
+        <li><strong>역할 :</strong> 프론트엔드 개발</li>
+        <li><strong>주요 구현 :</strong> 전문 서적 및 공식 문서를 참고하여 환경 설정부터 UI 컴포넌트 설계, 기능 구현</li>
+        <li><strong>협업 방식 :</strong> 엑셀을 활용한 구현 기능 명세화 및 실험실 소속 팀원 간의 일정 공유로 협업 효율 증대</li>
+        <li>
+          <a href="https://github.com/lse0522/sagopa_" target="_blank" className="text-black-600 font-bold underline decoration-1 underline-offset-4 hover:text-black-800">
+            GitHub 저장소 바로가기
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>학습 활동 (팀명 : 컴공진단)</strong> 
+      <ul className="ml-5 list-[circle] space-y-1 mt-1 text-gray-700">
+        <li>비대면(Zoom) 화상 스터디를 통한 정보처리기사 등 전공 자격증 취득 및 알고리즘 문제 풀이</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div className="mb-10 px-1 md:px-2">
+  <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-4 gap-1">
+    <div className="flex flex-wrap items-center gap-2">
+      <span className="font-bold text-gray-900 text-base md:text-lg break-keep">
+        취업 동아리 'Hello World'
+      </span>
+       <span className="text-sm text-gray-600 font-medium">팀 프로젝트</span>
+    </div>
+    <span className="text-xs md:text-sm text-gray-500 tabular-nums whitespace-nowrap self-start md:self-auto">
+      : 2021.05. ~ 2022.01.
+    </span>
+  </div>
+
+  <ul className="ml-8 list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
+    <li>
+      <strong>교내 서점 홈페이지 '사고파' 제작 (팀명 : 판교가자)</strong>
+       <p className="text-sm font-mono text-blue-600 mt-1">
+        Stack:  React, Firebase, Spring Framework
+      </p>
+      <ul className="ml-5 list-[circle] space-y-1.5 mt-1 text-gray-700">
+        <li>취업을 위한 동아리이자 팀원들과 모여 공모전 참여와 스터디를 위해 참여</li>
+        <li><strong>주요 구현 :</strong> 전문 서적 및 공식 문서를 참고하여 환경 설정부터 UI 컴포넌트 설계, 기능 구현</li>
+        <li><strong>협업 방식 :</strong> 엑셀을 활용한 구현 기능 명세화 및 실험실 소속 팀원 간의 일정 공유로 협업 효율 증대</li>
+        <li>
+          <a href="https://github.com/lse0522/sagopa_" target="_blank" className="text-black-600 font-bold underline decoration-1 underline-offset-4 hover:text-black-800">
+            GitHub 저장소 바로가기
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>학습 활동 (팀명 : 컴공진단)</strong> 
+      <ul className="ml-5 list-[circle] space-y-1 mt-1 text-gray-700">
+        <li>비대면(Zoom) 화상 스터디를 통한 정보처리기사 등 전공 자격증 취득 및 알고리즘 문제 풀이</li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+
+  
+        <div className="flex justify-end gap-4">
+          {/* 클릭 시 상태 업데이트 */}
+          <button onClick={handleOnclick1} className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 active:border-t-black active:border-l-black active:border-r-white active:border-b-white text-sm">
+            확인
+          </button>
+          <button className="px-6 py-1 bg-[#c0c0c0] border-t-white border-l-white border-r-black border-b-black border-2 text-sm">
+            취소
+          </button>
         </div>
     </div>
-    </div>
+  </div>
+</div>
     );   
 }
 export default Windowsboxwhite;
