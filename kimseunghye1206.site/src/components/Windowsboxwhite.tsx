@@ -242,7 +242,7 @@ return (
         Stack: React, TypeScript, TAILWIND CSS, Spring Boot, JPA, SPRING AI, MariaDB
       </p>
       <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
-        <li>2022년 멋쟁이사자처럼 아이디어톤에서 기획했던 페이지 리팩토링 <small><a href='https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&p=f&t=IIMMv3Jht1nzq09o-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank' className='underline'>(리팩토링 전 기획)</a></small> </li>
+        <li>2022년 멋쟁이사자처럼 아이디어톤에서 기획했던 페이지 리팩토링 <small><a href='https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&p=f&t=IIMMv3Jht1nzq09o-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank' className='underline'>(리팩토링 전 기획(SRS))</a></small> </li>
         <li>
           AI 매칭을 활용한 멘토 추천, 멘토가 멘티에게 정보를 공유하고 개인별 학습 역량을 성장 시킬 수 있도록 관리 해주는 페이지
         </li>
@@ -273,34 +273,42 @@ return (
 </div>
     
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
-      <p className="text-sm font-mono text-blue-600 mt-1">
-        Stack:  HTML, CSS, JAVASCRIPT, JQUERY, JSP, JAVA, SPRING BOOT, 공공데이터 API, ORACLE, EXERD, APACHE TOMCAT, AWS(EC2), GITHUB
-      </p>
-     <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
-     <li>
-    <strong>역할 :</strong> 회원/관리자 기능(공지사항, 회원관리) 구현 및 공공데이터 연동 담당
-  </li>
-  <li>
-    공공데이터 API를 활용한 <strong>의료 시설 현황 및 통계 시각화</strong> 서비스
-  </li>
-  <li>
-    <strong>회원 및 권한 관리 :</strong> 로그인/로그아웃 및 세션 기반의 권한별(일반/의료진/관리자) 접근 제어 구현
-  </li>
-  <li>
-    <strong>게시판 엔진 설계 :</strong> 
-    <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
-      <li>MyBatis와 SQL <code>BETWEEN</code> 연산을 활용한 커스텀 <strong>페이징 처리</strong> 및 검색 로직 구축</li>
-      <li>SmartEditor2 연동 및 파일 업로드/원본명 유지 다운로드 시스템 구현</li>
-      <li>관리자 예외 처리가 포함된 중복 조회수 방지 로직 적용</li>
-    </ul>
-  </li>
-  <li>
-    <strong>관리자 전역 기능 :</strong> 전체 회원 정보 상세 조회, 엑셀 다운로드, SMS API 연동 고객 알림 서비스 구축
-  </li>
-  <li>
-    <strong>통계 시각화 :</strong> 사용자 주소지 API 연동을 통한 지역별 입원실 및 보건 의료 현황 맞춤형 데이터 표시
-  </li>
-</ul>
+            <p className="text-sm font-mono text-blue-600 mt-1">
+              Stack:  HTML, CSS, JAVASCRIPT, JQUERY, JSP, JAVA, SPRING BOOT, 공공데이터 API, ORACLE, EXERD, APACHE TOMCAT, AWS(EC2), GITHUB
+            </p>
+          <ul className="list-disc ml-5 text-gray-800 space-y-2 text-sm leading-relaxed">
+          <li>
+          <strong>역할 :</strong> 회원/관리자 기능(공지사항, 회원관리) 구현 및 공공데이터 연동 담당
+        </li>
+        <li>
+          공공데이터 API를 활용한 <strong>의료 시설 현황 및 통계 시각화</strong> 서비스
+        </li>
+        <li>
+          <strong>회원 및 권한 관리 :</strong> 로그인/로그아웃 및 세션 기반의 권한별(일반/의료진/관리자) 접근 제어 구현
+        </li>
+        <li>
+          <strong>기획 배경 :</strong> 
+          <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+            <li>의료 서비스 접근성과 환자 경험을 혁신적으로 개선 필요</li>
+            <li>환자들이 병의원과 약국을 손쉽게 찾고, 진료 예약을 간편하게 하며, 의료서비스 이용 데이터를 분석하여 효율적인 자원 배분과 정책 수립을 지원</li>
+          </ul>
+        </li>
+        <li>
+          <strong>게시판 엔진 설계 :</strong> 
+          <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
+            <li>MyBatis와 SQL <code>BETWEEN</code> 연산을 활용한 커스텀 <strong>페이징 처리</strong> 및 검색 로직 구축</li>
+            <li>SmartEditor2 연동 및 파일 업로드/원본명 유지 다운로드 시스템 구현</li>
+            <li>관리자 예외 처리가 포함된 중복 조회수 방지 로직 적용</li>
+          </ul>
+        </li>
+        <li>
+          <strong>관리자 전역 기능 :</strong> 전체 회원 정보 상세 조회, 엑셀 다운로드, SMS API 연동 고객 알림 서비스 구축
+        </li>
+        <li>
+          <strong>통계 시각화 :</strong> 사용자 주소지 API 연동을 통한 지역별 입원실 및 보건 의료 현황 맞춤형 데이터 표시
+        </li>
+        <li><a href='https://github.com/kshksh723/Medinfora?tab=readme-ov-file#-%EA%B5%AC%ED%98%84-%ED%99%94%EB%A9%B4' target='_blank' className='underline'>구현 화면</a></li>
+      </ul>
     </ul>
   </div>  
 </div>
@@ -349,6 +357,9 @@ return (
             </li>
             <li>
               <strong>외부 API 활용 :</strong> 카카오 주소 찾기 API 및 SMS(문자) 발송 API 연동을 통한 서비스 편의성 강화
+            </li>
+            <li>
+              <a href='https://github.com/kshksh723/GoGoDak?tab=readme-ov-file#-%EC%A3%BC%EC%9A%94-%ED%99%94%EB%A9%B4-key-screens' target='_blank' className='underline'>구현 화면</a>
             </li>
           </ul>
     </ul>
