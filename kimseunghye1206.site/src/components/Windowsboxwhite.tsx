@@ -2,6 +2,7 @@
 import profileImg from '../img/profilePhoto.jpg';
 import projectLink from "../img/link.png";
 import smallObject from "../img/smallObjectProject.png";
+import PdfDownload from './PdfDownload';
 function Windowsboxwhite () {
 
   function handleOnclick1() {
@@ -35,6 +36,13 @@ return (
         src={profileImg} className="w-full h-full object-cover select-none" alt="profile" draggable="false" 
         onContextMenu={(e) => e.preventDefault()} />
     </div>
+<div className='flex justify-center md:justify-end'>
+          <PdfDownload
+            fileUrl='files/portfolio.pdf'
+            fileName='김승혜_포트폴리오.pdf'
+            title="Portfolio PDF DownLoad"
+            />
+</div>
     <div className="mt-4 bg-white border-2 border-gray-500 p-4 h-full text-black font-mono overflow-y-auto">
   <h2 className="text-lg font-bold mb-3">👋 안녕하세요!</h2>
   <p className="leading-relaxed mb-4">
