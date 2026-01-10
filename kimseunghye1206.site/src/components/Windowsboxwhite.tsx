@@ -29,7 +29,7 @@ return (
         
   <div className="flex-1 bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-10 overflow-y-auto scrollbar-custom p-6 md:p-10 
         overflow-y-auto custom-scrollbar">
- <div className='flex items-center justify-start md:justify-end gap-2'>
+ <div className='flex items-center justify-start md:justify-end'>
   <img 
     src={pdf} 
     alt="PDF Icon" 
