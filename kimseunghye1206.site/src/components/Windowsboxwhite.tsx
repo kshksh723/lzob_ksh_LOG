@@ -29,18 +29,17 @@ return (
         
   <div className="flex-1 bg-white border-t-2 border-l-2 border-gray-800 border-r-white border-b-white p-10 overflow-y-auto scrollbar-custom p-6 md:p-10 
         overflow-y-auto custom-scrollbar">
-          <div className='flex items-center justify-start md:justify-end'>
+ <div className='flex items-center justify-start md:justify-end gap-2'>
   <img 
-              src={pdf} 
-              alt="PDF Icon" 
-              className="w-5 h-5 object-contain shrink-0"
-
-            />
-          <PdfDownload
-            fileUrl='files/portfolio.pdf'
-            fileName='김승혜_포트폴리오.pdf'
-            title="Portfolio PDF DownLoad"
-            />
+    src={pdf} 
+    alt="PDF Icon" 
+    className="w-5 h-5 object-contain shrink-0"
+  />
+  <PdfDownload
+    fileUrl="https://drive.google.com/file/d/1c8jl-nwu6M7odtbQA2IqC-BpMiimB8wL/view?usp=sharing"
+    fileName='김승혜_포트폴리오.pdf'
+    title="Portfolio PDF DownLoad"
+  />
 </div>
         <h2 className="text-black text-3xl font-extrabold">Kim Seung Hye</h2>
                         <p className="text-gray-500/68  font-light">꾸준히 성장하는 개발자</p>
