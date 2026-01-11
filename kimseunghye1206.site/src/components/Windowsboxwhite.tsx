@@ -259,7 +259,7 @@ return (
         Stack: React, TypeScript, TAILWIND CSS, Spring Boot, JPA, SPRING AI, MariaDB
       </p>
       <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
-        <li>2022년 멋쟁이사자처럼 아이디어톤에서 기획했던 페이지 리팩토링 <small><a href='https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&p=f&t=IIMMv3Jht1nzq09o-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank' className='underline'>(리팩토링 전 기획(SRS))</a></small> </li>
+        <li>2022년 멋쟁이사자처럼 아이디어톤에서 기획했던 페이지 리팩토링 <small><a href='https://www.figma.com/proto/oY469eP1SagPnU0ciUV37g/Untitled?node-id=4-3&p=f&t=IIMMv3Jht1nzq09o-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1' target='_blank' className='underline'>(리팩토링 전 기획)</a></small> </li>
         <li>
           AI 매칭을 활용한 멘토 추천, 멘토가 멘티에게 정보를 공유하고 개인별 학습 역량을 성장 시킬 수 있도록 관리 해주는 페이지
         </li>
