@@ -121,7 +121,7 @@ return (
     <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2">
               <div className="flex flex-col md:flex-row md:items-baseline md:gap-4">
         <span className="font-bold text-gray-900 text-base md:text-lg">비브이에스</span>
-        <span className="text-sm text-gray-600 font-medium">기획실</span>
+        <span className="text-sm text-gray-600 font-medium">기획실|시스템 운영</span>
       </div>
       <span className="text-sm text-gray-500 tabular-nums">2025.07. ~ 2025.09.  (3개월)</span>
     </div>
