@@ -15,7 +15,7 @@ const PdfDownload: React.FC<Props> = ({ fileUrl, title }) => {
   return (
     <button 
       onClick={handleDownload}
-      className="px-2 py-1 underline text-xs text-gray-500 rounded hover:text-blue-700 transition"
+      className="px-2 py-1 underline text-xs text-gray-500 rounded hover:text-blue-700 transition cursor-pointer"
     >
       {title}
     </button>
