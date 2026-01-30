@@ -251,7 +251,7 @@ return (
 
     <span className="text-sm text-gray-600 font-medium">개인 프로젝트</span>
   </div>
-  <span className="text-sm text-gray-500 tabular-nums">2026.01. ~ 진행중</span>
+  <span className="text-sm text-gray-500 tabular-nums">2026.10. ~ 진행중</span>
 </div>
     
     <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
