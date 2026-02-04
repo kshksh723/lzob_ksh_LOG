@@ -638,7 +638,7 @@ return (
         <li><strong>주요 구현 :</strong> 전문 서적 및 공식 문서를 참고하여 환경 설정부터 UI 컴포넌트 설계, 기능 구현</li>
         <li><strong>협업 방식 :</strong> 엑셀을 활용한 구현 기능 명세화 및 실험실 소속 팀원 간의 일정 공유로 협업 효율 증대</li>
         <li>
-          <a href="https://github.com/lse0522/sagopa_" target="_blank" className="text-black-600 font-bold underline decoration-1 underline-offset-4 hover:text-black-800">
+          <a href="https://github.com/kshksh723/sagopa_" target="_blank" className="text-black-600 font-bold underline decoration-1 underline-offset-4 hover:text-black-800">
             GitHub 저장소 바로가기
           </a>
         </li>
