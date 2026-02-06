@@ -169,10 +169,10 @@ return (
       <strong>UI/UX 및 데이터 연동 설계:</strong> WebSquare5를 활용한 UI 설계 및 Submission 객체 기반의 <strong>비동기(Async) 데이터 연동</strong> 구현
     </li>
     <li>
-      <strong>레거시 분석 및 가시성 확보:</strong> C# 기반 WMS 소스코드 및 DB 구조 분석을 통한 <strong>안정적인 기능 이관(Migration)</strong> 지원
+      <strong>레거시 분석 및 가시성 확보:</strong> C# 기반 WMS의 소스코드 및 데이터 연동 구조를 분석하여 레거시 시스템의 가시성 확보
     </li>
     <li>
-      <strong>로직 분석 및 산출물 작성:</strong> 공정 핵심 로직 분석 및 기술 산출물 주도적 작성으로 <strong>품질 감리 우수 평가(A+) 획득</strong>
+      <strong>로직 분석 및 산출물 작성:</strong> 작업지시·실적 등록 등 핵심 화면과 PL/SQL 프로시저 간의 연계 로직 분석 및 기술 산출물 작성 후 <strong>품질 감리 우수 평가(A+) 획득</strong>
     </li>
     <li>
       <strong>데이터 정합성 검증:</strong> Oracle DB 프로시저 내부 로직 추적을 통한 상태값 변경 흐름 검증 및 <strong>데이터 무결성 확보</strong>
