@@ -126,23 +126,25 @@ return (
       <span className="text-sm text-gray-500 tabular-nums">2025.07. ~ 2025.09.  (3개월)</span>
     </div>
     
-    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
-      <p className="text-sm font-mono text-blue-600 mt-1">
-        Stack:  Java, eGovFrame, MyBatis, Oracle, JavaScript, CSS, HTML
-      </p>
-      <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
-        <li>PMS 및 유선 요청을 통한 홈페이지 콘텐츠 유지보수 반영 업무 담당</li>
-        <li>
-          CMS(콘텐츠 관리 시스템)을 활용한 콘텐츠 수정 및 요청사항 반영
-        </li>
-        <li>
-          서비스 고도화를 목표로 <strong>앱 분석</strong>을 통해 UX 개선 방안 도출
-        </li>
-        <li>
-          개선된 서비스 구조 및 사용자 흐름을 반영한 <strong>홈페이지 스토리보드 기획 및 작성</strong>
-        </li>
-      </ul>
-    </ul>
+ <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+  <p className="text-sm font-mono text-blue-600 mt-1 mb-2">
+    Stack: Java, eGovFrame, MyBatis, Oracle, JavaScript, CSS, HTML
+  </p>
+  <ul className="list-disc text-gray-800 space-y-3 text-sm leading-relaxed">
+    <li>
+      <strong>홈페이지 운영 및 유지보수:</strong> eGovFrame 환경에서 PMS 및 유선을 통한 고객 요청사항 실시간 분석 및 콘텐츠 업데이트
+    </li>
+    <li>
+      <strong>데이터 정합성 및 품질 관리:</strong> CMS를 활용한 데이터 관리 및 <strong>반영 전 테스트</strong>를 통한 웹 페이지 정보의 무결성 유지
+    </li>
+    <li>
+      <strong>서비스 고도화 기획:</strong> 앱 사용성 분석을 통한 UI/UX 개선 가이드 수립 및 서비스 구조 최적화
+    </li>
+ <li>
+  <strong>설계 및 가교 역할:</strong> 사용자 흐름을 반영한 <strong>스토리보드 기획</strong> 및 Word를 활용한 개발-디자인 간 기술적 실현 가능성(Feasibility) 검토
+</li>
+  </ul>
+</ul>
   </div>  
 
   {/* 디와이정보기술 */}
@@ -155,26 +157,28 @@ return (
           <span className="text-sm text-gray-500 tabular-nums">2024.10. ~ 2025.06. (8개월)</span>
     </div>
 
-    <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
-      <p className="text-sm font-mono text-blue-600 mt-1">
-        Stack:  Java, Spring Framework, MyBatis, Oracle, WebSquare, C#, Tomcat
-      </p>
-      <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
-      <li><strong>종합정비창 스마트팩토리 구축사업 참여</strong></li>
-      <li>
-        <strong>UI/UX 및 데이터 연동 설계:</strong> WebSquare5를 활용한 UI 구조 설계 및 Submission 객체를 통한 Spring Framework 비즈니스 로직 연동
-      </li>
-      <li>
-        <strong>시스템 분석 및 문서화:</strong> C# 기반 WMS의 소스코드 및 데이터 연동 구조를 분석하여 레거시 시스템의 가시성 확보
-      </li>
-      <li>
-        <strong>로직 분석 및 산출물 작성:</strong> 작업지시·실적 등록 등 핵심 화면과 PL/SQL 프로시저 간의 연계 로직 분석 및 기술 산출물 작성
-      </li>
-      <li>
-        <strong>데이터 정합성 검증:</strong> Oracle DB 프로시저를 통해 입·출고 내역 및 상태값 변경 흐름을 추적
-      </li>
-    </ul>
-    </ul>
+   <ul className="ml-8 list-disc text-gray-800 space-y-1.5">
+  <p className="text-sm font-mono text-blue-600 mt-1 mb-2">
+    Stack: Java, Spring Framework, MyBatis, Oracle, WebSquare5, C#, PL/SQL
+  </p>
+  <ul className="list-disc text-gray-800 space-y-2 text-sm leading-relaxed">
+    <li>
+      <strong>종합정비창 스마트팩토리 구축 사업 참여(고도화) </strong>
+    </li>
+    <li>
+      <strong>UI/UX 및 데이터 연동 설계:</strong> WebSquare5를 활용한 UI 설계 및 Submission 객체 기반의 <strong>비동기(Async) 데이터 연동</strong> 구현
+    </li>
+    <li>
+      <strong>레거시 분석 및 가시성 확보:</strong> C# 기반 WMS 소스코드 및 DB 구조 분석을 통한 <strong>안정적인 기능 이관(Migration)</strong> 지원
+    </li>
+    <li>
+      <strong>로직 분석 및 산출물 작성:</strong> 공정 핵심 로직 분석 및 기술 산출물 주도적 작성으로 <strong>품질 감리 우수 평가(A+) 획득</strong>
+    </li>
+    <li>
+      <strong>데이터 정합성 검증:</strong> Oracle DB 프로시저 내부 로직 추적을 통한 상태값 변경 흐름 검증 및 <strong>데이터 무결성 확보</strong>
+    </li>
+  </ul>
+</ul>
   </div>
 </section>
   <h1 className="text-xl font-bold mb-4 pb-1 mt-6 border-b border-gray-200">Channel.</h1>
@@ -429,7 +433,7 @@ return (
       🏆 공모전 2관왕 (우수상 & 인기상)
     </span>
   </div>
-  <span className="text-sm text-gray-500 tabular-nums">2023.09. ~ 2023.12.</span>
+  <span className="text-sm text-gray-500 tabular-nums">2021.11 ~ 2022.04.</span>
 </div>
 
 <ul className="list-disc ml-13 text-gray-800 space-y-2 text-sm leading-relaxed">
@@ -465,7 +469,7 @@ return (
     </a>
         <strong className="text-gray-900"></strong>
         <div className="flex flex-col items-start md:items-end shrink-0">
-        <span className="text-xs text-gray-500 tabular-nums ">2021.11. ~ 2021.11.</span>
+        <span className="text-xs text-gray-500 tabular-nums ">2021.10. ~ 2021.11.</span>
         </div>
       </div>
     <ul className="ml-4 list-[circle] space-y-1 mt-1 text-gray-700">
